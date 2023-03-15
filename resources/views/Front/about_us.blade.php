@@ -29,18 +29,12 @@
                     <div class="col-12 col-lg-5">
                         <div class="title">
                             <h1 class="title-heading">@lang('site.About Us')</h1>
-                            <p class="title-desc">
-                                {{ lang() == 'ar' ? 'نحن نقدم المنتجات والحلول والخدمات في جميع أنحاء
-                                 سلسلة قيمة الطاقة. نحن ندعم عملائنا في طريقهم إلى مستقبل أكثر استدامة.' : 'We offer products, solutions, and services across the entire
-                                energy value chain. We support our customers on their way to
-                                a more sustainable future.' }}
-                            </p>
-                            <div class="title-action">
-                                <a class="btn btn--primary" href="{{ route('service') }}">
-                                    <span>@lang('site.our services')</span><i class="energia-arrow-right"></i></a>
-                                <a class="btn-video btn-video-2" href="https://www.youtube.com/watch?v=qLFzFy_FHBk&t=73s">
-                                    <i class="fas fa-play"></i></a>
-                            </div>
+{{--                            <div class="title-action">--}}
+{{--                                <a class="btn btn--primary" href="{{ route('service') }}">--}}
+{{--                                    <span>@lang('site.our services')</span><i class="energia-arrow-right"></i></a>--}}
+{{--                                <a class="btn-video btn-video-2" href="https://www.youtube.com/watch?v=qLFzFy_FHBk&t=73s">--}}
+{{--                                    <i class="fas fa-play"></i></a>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
                 </div>
@@ -109,14 +103,13 @@
                                 <div class="block-right">
                                     <div class="prief-set">
                                         <p>
-                                            {{ lang() == 'ar' ? 'كيف يمكننا تلبية الطلب المتزايد على الكهرباء مع حماية مناخنا وجعل كوكبنا مكانًا أفضل؟' : 'How can we meet the growing demand for electricity
-                                            while protecting our climate & make planet a better
-                                            place?' }}
+                                            Producing High-Quality Engine Oils That Satisfy The Consumer.To Be A Leading Company Achieving Continuous Growth In The Production Of All Types Of Motor Oils.
                                         </p>
                                         <ul class="list-unstyled advantages-list">
-                                            <li>{{ lang() == 'ar' ? 'الموثوقية والأداء': 'Reliability and performance' }}</li>
-                                            <li>{{ lang() == 'ar' ? 'التصنيع في الوقت المناسب': 'Just-in-time manufacturing' }}</li>
-                                            <li>{{ lang() == 'ar' ? 'تمويل المواد الشمسية': 'solar material financing' }}</li>
+                                            <li>Earn The Confidence Of The Domestic And International Market.</li>
+                                            <li>Keeping Up With Modern Technologies.</li>
+                                            <li>Achieving Global Standards In Manufacturing Processes.</li>
+{{--                                            <li>Finding Job Opportunities, Training, And Technical Qualification For Young People Who Are Able To Prove Themselves.</li>--}}
                                         </ul>
                                     </div>
                                 </div>
@@ -139,27 +132,22 @@
                 <div class="row">
                     <div class="col-12 col-lg-5">
                         <p class="heading-subtitle">
-                            {{ lang() == 'ar' ? 'طاقة مستدامة وموثوقة وبأسعار معقولة!' : 'Sustainable, Reliable & Affordable Energy!' }}
+                            Vision
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-5">
                         <h2 class="heading-title">
-                            {{ lang() == 'ar' ? 'تقديم قيمة لعملائنا من خلال المنتج المستمر و
-                             التعاون.' : 'Providing Value To Our ClientsThrough Ongoing Product &
-                            Innovation.' }}
+                            To Be A Leading Company Achieving Continuous Growth In The Production Of All Types Of Motor Oils.
                         </h2>
                     </div>
                     <div class="col-12 col-lg-6 offset-lg-1">
+                        <p class="heading-subtitle">
+                            The Message
+                        </p>
                         <p class="heading-desc">
-                            {{ lang() == 'ar' ? 'مع تحسين إنتاجية وأداء الطاقة الشمسية
-                             المنتجات ، تتيح لنا خبرتنا في مجال الصناعة الكهروضوئية توفيرها
-                             مصادر متعمقة للمواد والتمويل وسلسلة التوريد
-                             خبرة في كل خطوة.' : 'While improving the yield and performance of solar energy
-                            products, our PV industry experience enables us to provide
-                            in-depth material sourcing, financing and supply chain
-                            expertise for every step.' }}
+                            Producing High-Quality Engine Oils That Satisfy The Consumer.To Be A Leading Company Achieving Continuous Growth In The Production Of All Types Of Motor Oils.
                         </p>
                         <p class="heading-desc">
                             {{ lang() == 'ar' ? 'السيليكون الخام متعدد الكريستالات لتصنيع الخلايا الكهروضوئية. متوفر بدرجات وأشكال مختلفة بما في ذلك القطع والرقائق والمسحوق والسبيكة.' : 'Raw polycrystalline silicon for PV manufacturing. Offered in
@@ -197,26 +185,26 @@
             </div>
         </div>
     </section>
-    <section class="clients clients-carousel clients-1" id="clients-1">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h3 class="d-none">@lang('site.Our Clients')</h3>
-                </div>
-                <div class="col-12">
-                    <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true"
-                         data-nav="false" data-dots="false" data-space="0" data-loop="false" data-speed="3000">
-                        @foreach ($brands as $brand)
-                            <div class="client">
-                                <a href="javascript:void(0)"> </a><img src="{{ asset($brand->image) }}"
-                                                                       alt="{{ $brand->name }}" />
-                            </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="clients clients-carousel clients-1" id="clients-1">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col">--}}
+{{--                    <h3 class="d-none">@lang('site.Our Clients')</h3>--}}
+{{--                </div>--}}
+{{--                <div class="col-12">--}}
+{{--                    <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true"--}}
+{{--                         data-nav="false" data-dots="false" data-space="0" data-loop="false" data-speed="3000">--}}
+{{--                        @foreach ($brands as $brand)--}}
+{{--                            <div class="client">--}}
+{{--                                <a href="javascript:void(0)"> </a><img src="{{ asset($brand->image) }}"--}}
+{{--                                                                       alt="{{ $brand->name }}" />--}}
+{{--                            </div>--}}
+{{--                        @endforeach--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <section class="contact contact-1 bg-overlay bg-overlay-theme" id="contact-1">
         <div class="bg-section">

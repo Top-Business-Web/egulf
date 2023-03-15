@@ -43,43 +43,43 @@
         <div class="block-right">
 
 
-            <div class="social-links">
-                <a class="share-facebook" href="{{ $settings->linked_in }}"><i class="energia-facebook"></i></a>
-                {{-- <a class="share-twitter" href="{{ $settings->twitter }}"
-                    ><i class="energia-twitter"></i></a
-                    ><a class="share-youtube" href="{{ $settings->youtube }}"
-                    ><i class="energia-youtube"></i
-                        ></a> --}}
-            </div>
+{{--            <div class="social-links">--}}
+{{--                <a class="share-facebook" href="{{ $settings->linked_in }}"><i class="energia-facebook"></i></a>--}}
+{{--                --}}{{-- <a class="share-twitter" href="{{ $settings->twitter }}"--}}
+{{--                    ><i class="energia-twitter"></i></a--}}
+{{--                    ><a class="share-youtube" href="{{ $settings->youtube }}"--}}
+{{--                    ><i class="energia-youtube"></i--}}
+{{--                        ></a> --}}
+{{--            </div>--}}
 
 
 
-            <div class="topbar-links">
-                <!-- <a href="blog-grid.html">news & media</a
-                ><a href="page-careers.html">careers</a
-                > -->
-                <a href="{{ route('faqs') }}">@lang('site.faqs')</a>
-            </div>
-            <div class="module module-language">
-                <div class="selected">
-                    <img @if (lang() == 'en') src="{{ asset('assets/front/') }}/assets/images/module-language/en.png"
-                         @else
-                             src="{{ asset('assets/front/') }}/assets/images/module-language/ar.png" @endif
-                         alt="En Language" /><span>{{ lang() == 'en' ? ' english ' : ' العربية ' }}</span>
-                </div>
-                <div class="lang-list">
-                    <ul>
-                        @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                            <li>
-                                <a rel="alternate" hreflang="{{ $localeCode }}"
-                                   href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                    {{ $properties['native'] }}
-                                </a>
-                            </li>
-                        @endforeach
-                    </ul>
-                </div>
-            </div>
+{{--            <div class="topbar-links">--}}
+{{--                <!-- <a href="blog-grid.html">news & media</a--}}
+{{--                ><a href="page-careers.html">careers</a--}}
+{{--                > -->--}}
+{{--                <a href="{{ route('faqs') }}">@lang('site.faqs')</a>--}}
+{{--            </div>--}}
+{{--            <div class="module module-language">--}}
+{{--                <div class="selected">--}}
+{{--                    <img @if (lang() == 'en') src="{{ asset('assets/front/') }}/assets/images/module-language/en.png"--}}
+{{--                         @else--}}
+{{--                             src="{{ asset('assets/front/') }}/assets/images/module-language/ar.png" @endif--}}
+{{--                         alt="En Language" /><span>{{ lang() == 'en' ? ' english ' : ' العربية ' }}</span>--}}
+{{--                </div>--}}
+{{--                <div class="lang-list">--}}
+{{--                    <ul>--}}
+{{--                        @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)--}}
+{{--                            <li>--}}
+{{--                                <a rel="alternate" hreflang="{{ $localeCode }}"--}}
+{{--                                   href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">--}}
+{{--                                    {{ $properties['native'] }}--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
+{{--                        @endforeach--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu">
@@ -125,10 +125,10 @@
                     data-hover="">
                     <a    href="{{ route('about_us') }}"><span>@lang('site.about us')</span></a>
                 </li>
-                <li class="nav-item   @if (Route::currentRouteName() == 'service') active @endif" id="contact"
-                    data-hover="">
-                    <a    href="{{ route('service') }}"><span>@lang('site.services')</span></a>
-                </li>
+{{--                <li class="nav-item   @if (Route::currentRouteName() == 'service') active @endif" id="contact"--}}
+{{--                    data-hover="">--}}
+{{--                    <a    href="{{ route('service') }}"><span>@lang('site.services')</span></a>--}}
+{{--                </li>--}}
                 <li class="nav-item   @if (Route::currentRouteName() == 'product') active @endif" id="contact"
                     data-hover="">
                     <a href="{{ route('product') }}"><span>@lang('site.products')</span></a>

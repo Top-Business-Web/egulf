@@ -56,9 +56,7 @@
                             <div class="card-content">
                                 <div class="content-top">
                                     <p>
-                                       {{ lang() == 'ar' ? 'بصفتنا موزعًا عالميًا لإمدادات الطاقة الشمسية ، نسعى لتقديم خدمة سريعة ومعرفة ، يمكننا الحصول على جميع المواد التي تحتاجها عن طريق البحر أو الجو.' : ' As a world wide distributor of solar supplies we
-                                        endeavor provide fast and knowledgeable service, we can
-                                        get all the materials you need by sea or air.' }}
+                                        For Any Kind Of Query, Contact Us With The Details Below.
                                     </p>
                                     <a href="{{ route('contact') }}"
                                     ><i class="energia-arrow-right"></i>@lang('site.our office map')</a
@@ -128,25 +126,14 @@
                                                 required=""
                                             />
                                         </div>
-                                        <div class="col-12 col-md-6">
+                                        <div class="col-12 col-md-12">
                                             <input
                                                 class="form-control"
                                                 type="text"
                                                 id="contact-phone"
                                                 name="phone"
                                                 placeholder="@lang('site.phone')"
-                                                required=""
                                             />
-                                        </div>
-                                        <div class="col-12 col-md-6">
-                                            <select class="form-control" id="select-1" required name="services">
-                                                <option value="">
-                                                    @lang('site.select your services')
-                                                </option>
-                                                @foreach($services as $service)
-                                                   <option value="{{ $service->id }}">{{ trans_model($service,'title') }}</option>
-                                                @endforeach
-                                            </select>
                                         </div>
                                         <div class="col-12">
                           <textarea

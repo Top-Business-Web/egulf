@@ -18,5 +18,7 @@ class Slider extends Model
         'image_faqs',
         'image_project'
     ];
+
+    public $timestamps = false;
 }
 

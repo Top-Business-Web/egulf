@@ -27,7 +27,6 @@ class StoreContact extends FormRequest
             'name' => 'required',
             'email' => 'required|email',
             'phone' => 'required',
-            'services' => 'required',
             'message' => 'required',
         ];
     }

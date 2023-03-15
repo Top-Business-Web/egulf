@@ -20,20 +20,15 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-2">
                     <div class="footer-widget widget-links">
                         <div class="footer-widget-title">
-                            <h5>@lang('site.services')</h5>
+                            <h5>Quality Policy</h5>
                         </div>
                         <div class="widget-content">
-                            <!-- Get 5 Latest for Model Services -->
-                            @php
-                                $services = App\Models\Service::latest()->take(5)->get();
-                            @endphp
-                            @foreach ($services as $service)
-
-                                <ul>
-                                    <li><a href="{{ route('service') }}">{{ trans_model($service,'title') }}</a></li>
-                                </ul>
-
-                            @endforeach
+                            <ul>
+                                <li>Providing Customers With High-Quality Products That Suit Their Purpose And That Meet Customer Requirements.</li>
+                                <li>Enhancing The Skills Of Administrators And Employees Through Continuous Trainin</li>
+                                <li>Promote A Culture Of Continuous Improvement Of The Quality Management System With The Philosophy Of Delivering Quality Products From First Time</li>
+                                <li>Strengthening The Quality Management System And Ensuring Its Implementation Through Internal Reviews And Taking All Corrective And Preventive Measures.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -47,7 +42,7 @@
                             <ul>
                                 @foreach($questions as $question)
                                     <li>
-                                        <a href="{{ route('faqs') }}">{{ trans_model($question,'title') }}</a>
+                                        {{ trans_model($question,'title') }}
                                     </li>
                                 @endforeach
                             </ul>
@@ -114,11 +109,11 @@
                 </span>
                             <ul class="list-unstyled social-icons">
 
-                                <li>
-                                    <a class="share-facebook" href="{{ $settings->linked_in }}"
-                                    ><i class="energia-facebook"></i>@lang('site.facebook')
-                                    </a>
-                                </li>
+{{--                                <li>--}}
+{{--                                    <a class="share-facebook" href="{{ $settings->linked_in }}"--}}
+{{--                                    ><i class="energia-facebook"></i>@lang('site.facebook')--}}
+{{--                                    </a>--}}
+{{--                                </li>--}}
                                 {{-- <li>
                                     <a class="share-twitter" href="{{ $settings->twitter }}"
                                     ><i class="energia-twitter"></i>twitter</a

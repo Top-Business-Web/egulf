@@ -38,8 +38,9 @@
                                             {{ trans_model($settings, 'desc') }}
                                         </p>
                                         <div class="slide-action">
-                                            <a class="btn btn--primary" href="{{ route('service') }}">
-                                                <span>@lang('site.our services')</span><i class="energia-arrow-right"></i></a><a
+{{--                                            <a class="btn btn--primary" href="{{ route('service') }}">--}}
+{{--                                                <span>@lang('site.our services')</span><i class="energia-arrow-right"></i></a>--}}
+                                            <a
                                                 class="btn btn--white justify-content-center"
                                                 href="{{ route('about_us') }}">@lang('site.more_about_us')</a>
                                         </div>
@@ -124,8 +125,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <h2 class="heading-title">
-                            {{ lang() == 'ar' ? 'مورد رائد لمواد الطاقة الشمسية للمصنعين والمقاولين.' : 'A Leading Supplier Of Solar Materials For Manufacturers
-                            Installers & Contractors.' }}
+                            We Have Many Products That Cover Consumer Desires With The Highest Possible Quality.
                         </h2>
                     </div>
                     <div class="col-12 col-lg-6">
@@ -172,10 +172,10 @@
                 <div class="about-block">
                     <div class="heading heading-1">
                         <p class="heading-subtitle heading-subtitle-bg">
-                            @lang('site.Complete_Solar_Systems')
+                            This Is The Most Common Question That We Are Asked
                         </p>
                         <h2 class="heading-title">
-                            @lang('site.The Pioneers World Of Solar And Renewable Energy!')
+                            Quality, Accuracy And Confidence In Dealing Among Customers Is What Makes Our Customers Happy To Do Business With Us
                         </h2>
                         <p class="heading-desc">
                             {!! trans_model($about,'desc') !!}
@@ -221,7 +221,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-5">
                         <h2 class="heading-title">
-                            @lang('site.Latest Products And Energy Supplies')
+                            All These Years, Our Different Services Have Delivered Long Lasting Innovation
                         </h2>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     <div class="heading heading-light heading-light2">
                         <p class="heading-subtitle">@lang('site.how it works!')</p>
                         <h2 class="heading-title">
-                            @lang('site.Fueling The Transition To Renewable Power')
+                            We Are Seeking To Expand In The Field
                         </h2>
                     </div>
                     <div class="counters-holder">
@@ -291,14 +291,14 @@
                                 </div>
                                 <div class="counter-img">
                                     <div class="bg-section">
-                                        <img src="{{ asset('assets/front') }}/assets/images/counters/1.jpg"
+                                        <img src=""
                                              alt="image"/>
                                     </div>
                                     <i class="flaticon-020-factory"></i>
                                 </div>
                             </div>
                             <div class="counter-desc">
-                                <p>@lang('site.years_of_experience')</p>
+                                <p>Experence of Year</p>
                             </div>
                         </div>
                     </div>
@@ -327,25 +327,25 @@
                             </div>
                         @endforeach
                     </div>
-                    <div class="images-holder">
-                        <div class="carousel owl-carousel process-image-carousel" data-slide="1" data-slide-rs="1"
-                             data-autoplay="true" data-drag="false" data-nav="false" data-dots="false" data-space="0"
-                             data-loop="false" data-speed="800">
-                            <img src="{{ asset('assets/front') }}/assets/images/processes/1.jpg" alt="process"/><img
-                                src="assets/images/processes/2.jpg" alt="process"/><img
-                                src="{{ asset('assets/front') }}/assets/images/processes/3.jpg" alt="process"/>
-                        </div>
-                        <div class="processes-panel">
-                            <h3 class="panel-title">
-                                @lang('site.contact title 1')
-                            </h3>
-                            <p class="panel-desc">
-                                @lang('site.contact title 2')
-                            </p>
-                            <a href="{{ route('contact') }}">@lang('site.schedule A Visit') <i
-                                    class="energia-arrow-right"></i></a>
-                        </div>
-                    </div>
+{{--                    <div class="images-holder">--}}
+{{--                        <div class="carousel owl-carousel process-image-carousel" data-slide="1" data-slide-rs="1"--}}
+{{--                             data-autoplay="true" data-drag="false" data-nav="false" data-dots="false" data-space="0"--}}
+{{--                             data-loop="false" data-speed="800">--}}
+{{--                            <img src="{{ asset('assets/front') }}/assets/images/processes/1.jpg" alt="process"/><img--}}
+{{--                                src="assets/images/processes/2.jpg" alt="process"/><img--}}
+{{--                                src="{{ asset('assets/front') }}/assets/images/processes/3.jpg" alt="process"/>--}}
+{{--                        </div>--}}
+{{--                        <div class="processes-panel">--}}
+{{--                            <h3 class="panel-title">--}}
+{{--                                @lang('site.contact title 1')--}}
+{{--                            </h3>--}}
+{{--                            <p class="panel-desc">--}}
+{{--                                @lang('site.contact title 2')--}}
+{{--                            </p>--}}
+{{--                            <a href="{{ route('contact') }}">@lang('site.schedule A Visit') <i--}}
+{{--                                    class="energia-arrow-right"></i></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
