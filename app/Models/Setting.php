@@ -21,6 +21,8 @@ class Setting extends Model
         'email',
         'address_ar',
         'address_en',
+        'desc_ar',
+        'desc_en',
         'linked_in',
         'youtube',
         'facebook',

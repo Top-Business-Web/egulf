@@ -111,7 +111,7 @@
             </div>
             <div class="row">
                 <div class="more-features more-features-2">
-                    <p>@lang('site.Discover_of_solar')</p>
+                    <p>We Have Many Products That Cover Consumer Desires With The Highest Possible Quality</p>
                     <a class="btn btn--bordered btn--white"
                        href="{{ route('service') }}">@lang('site.explore_our_plans')</a>
                 </div>

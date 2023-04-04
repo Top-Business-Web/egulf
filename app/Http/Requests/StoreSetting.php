@@ -34,6 +34,8 @@ class StoreSetting extends FormRequest
             'email' => 'required',
             'address_ar' => 'required',
             'address_en' => 'required',
+            'desc_ar' => 'required',
+            'desc_en' => 'required',
             'linked_in' => 'required',
             'youtube' => 'nullable',
             'facebook' => 'nullable',

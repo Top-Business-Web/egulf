@@ -123,6 +123,20 @@
                                     class="form-control" />
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="">Desc Ar :</label>
+                                <textarea type="text" name="desc_ar" rows="4"
+                                          class="form-control">{{ $settings->desc_ar }}</textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="">Desc En :</label>
+                                <textarea type="text" name="desc_en" rows="4"
+                                          class="form-control">{{ $settings->desc_en }}</textarea>
+                            </div>
+                        </div>
                     </div>
                     <!-- End Row -->
                     <div>
