@@ -21,13 +21,13 @@
     <section class="page-title page-title-14" id="page-title">
         <div class="page-title-wrap bg-overlay bg-overlay-dark-3">
             <div class="bg-section">
-                <img src="{{ asset('assets/front') }}/assets/images/page-titles/14.jpg" alt="Background"/>
+                <img src="{{ asset($slider->image_product) }}" alt="Background"/>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="title">
-                            <h1 class="title-heading">@lang('site.requesta quote')</h1>
+                            <h1 class="title-heading">@lang('site.request a quote')</h1>
                         </div>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ class StoreProduct extends FormRequest
             'pdf' => 'nullable',
             'part_number' => 'required',
             'weight' => 'required',
-            'dimensions' => 'required',
+            'dimensions' => 'nullable',
             'model_number' => 'required'
         ];
     }

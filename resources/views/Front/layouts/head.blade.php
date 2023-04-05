@@ -8,7 +8,7 @@
     />
     <meta name="description" content="Multi-purpose energy html5 template"/>
     <title>
-        Solar Valley
+        East Gulf
     </title>
     <link href="{{ asset($settings->logo) }}" rel="icon"/>
 

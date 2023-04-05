@@ -88,12 +88,12 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <div class="form-group">
-                <label class="control-label">Dimensions</label>
-                <input type="text" name="dimensions" class="form-control" id="exampleFormControlInput1">
-            </div>
-        </div>
+{{--        <div class="col-md-4">--}}
+{{--            <div class="form-group">--}}
+{{--                <label class="control-label">Dimensions</label>--}}
+{{--                <input type="text" name="dimensions" class="form-control" id="exampleFormControlInput1">--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
         <div class="col-md-4">
             <div class="form-group">
@@ -125,12 +125,12 @@
                 <textarea name="desc_en" class="form-control" id="" cols="30" rows="10"></textarea>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="form-group">
-                <label class="control-label">PDF</label>
-                <input type="file" name="pdf" class="form-control" id="exampleFormControlInput1">
-            </div>
-        </div>
+{{--        <div class="col-md-4">--}}
+{{--            <div class="form-group">--}}
+{{--                <label class="control-label">PDF</label>--}}
+{{--                <input type="file" name="pdf" class="form-control" id="exampleFormControlInput1">--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
     <div class="modal-footer">
         <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
