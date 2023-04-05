@@ -13,19 +13,19 @@
         <input type="hidden" name="id" value="{{ $product->id ?? '' }}">
     @endforeach
     <div class="row">
-        <div class="col-md-4">
-            <div class="form-group">
-                <label class="control-label">Title_Ar</label>
-                <input type="text" name="title_ar" class="form-control" id="exampleFormControlInput1">
-            </div>
-        </div>
+{{--        <div class="col-md-4">--}}
+{{--            <div class="form-group">--}}
+{{--                <label class="control-label">Title_Ar</label>--}}
+{{--                <input type="text" name="title_ar" class="form-control" id="exampleFormControlInput1">--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <div class="col-md-4">
-            <div class="form-group">
-                <label class="control-label">Sub Ar</label>
-                <input type="text" name="sub_title_ar" class="form-control" id="exampleFormControlInput1">
-            </div>
-        </div>
+{{--        <div class="col-md-4">--}}
+{{--            <div class="form-group">--}}
+{{--                <label class="control-label">Sub Ar</label>--}}
+{{--                <input type="text" name="sub_title_ar" class="form-control" id="exampleFormControlInput1">--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
 
         <div class="col-md-4">
@@ -112,12 +112,12 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <div class="form-group">
-                <label class="control-label">Description Ar</label>
-                <textarea name="desc_ar" class="form-control" id="" cols="30" rows="10"></textarea>
-            </div>
-        </div>
+{{--        <div class="col-md-4">--}}
+{{--            <div class="form-group">--}}
+{{--                <label class="control-label">Description Ar</label>--}}
+{{--                <textarea name="desc_ar" class="form-control" id="" cols="30" rows="10"></textarea>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
         <div class="col-md-4">
             <div class="form-group">

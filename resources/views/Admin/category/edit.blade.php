@@ -2,14 +2,14 @@
     @csrf
    @method('PUT')
         <input type="hidden" name="id" value="{{ $category->id }}">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
-                    <label class="control-label">Title_Ar</label>
-                    <input type="text" name="title_ar" value="{{ $category->title_ar }}" class="form-control" id="exampleFormControlInput1">
-                </div>
-            </div>
-        </div>
+{{--        <div class="row">--}}
+{{--            <div class="col-md-12">--}}
+{{--                <div class="form-group">--}}
+{{--                    <label class="control-label">Title_Ar</label>--}}
+{{--                    <input type="text" name="title_ar" value="{{ $category->title_ar }}" class="form-control" id="exampleFormControlInput1">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">

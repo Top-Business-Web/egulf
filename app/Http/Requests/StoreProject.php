@@ -24,14 +24,14 @@ class StoreProject extends FormRequest
     public function rules()
     {
         return [
-            'title_ar' => 'required',
+            'title_ar' => 'nullable',
             'title_en' => 'required',
-            'desc_ar' => 'required',
+            'desc_ar' => 'nullable',
             'desc_en' => 'required',
             'client' => 'required',
             'location' => 'required',
             'image'      => 'nullable',
-            'service_id' => 'required'
+            'service_id' => 'nullable'
         ];
     }
 }

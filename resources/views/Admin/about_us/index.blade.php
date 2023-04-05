@@ -12,27 +12,27 @@
             <div class="col-12">
                 <div class="card" style="padding: 13px">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="">Title Ar :</label>
-                                <input type="text" name="title_ar" value="{{ $about_us->title_ar }}"
-                                    class="form-control" />
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="">Sub Ar :</label>
-                                <input type="text" name="sub_title_ar" value="{{ $about_us->sub_title_ar }}"
-                                    class="form-control" />
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="">Hash Ar :</label>
-                                <input type="text" name="hash_ar" value="{{ $about_us->hash_ar }}"
-                                    class="form-control" />
-                            </div>
-                        </div>
+{{--                        <div class="col-md-4">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label for="">Title Ar :</label>--}}
+{{--                                <input type="text" name="title_ar" value="{{ $about_us->title_ar }}"--}}
+{{--                                    class="form-control" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-4">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label for="">Sub Ar :</label>--}}
+{{--                                <input type="text" name="sub_title_ar" value="{{ $about_us->sub_title_ar }}"--}}
+{{--                                    class="form-control" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-4">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label for="">Hash Ar :</label>--}}
+{{--                                <input type="text" name="hash_ar" value="{{ $about_us->hash_ar }}"--}}
+{{--                                    class="form-control" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                     <div class="row">
                         <div class="col-md-4">
@@ -82,13 +82,13 @@
             <div class="col-12">
                 <div class="card" style="padding: 13px">
                     <div class="card-body">
-                        <div class="container_ar">
-                            <h5 class="mb0">about_us Ar</h5>
-                            <textarea class="form-control" id="mytextarea" name="desc_ar" id="exampleFormControlTextarea1" rows="3">{{ $about_us->desc_ar }}</textarea>
-                        </div>
+{{--                        <div class="container_ar">--}}
+{{--                            <h5 class="mb0">about_us Ar</h5>--}}
+{{--                            <textarea class="form-control" id="mytextarea" name="desc_ar" id="exampleFormControlTextarea1" rows="3">{{ $about_us->desc_ar }}</textarea>--}}
+{{--                        </div>--}}
 
                         <div class="container_en">
-                            <h5 class="mb0">about_us Ar</h5>
+                            <h5 class="mb0">about_us EN</h5>
                             <textarea class="form-control" id="mytextarea1" name="desc_en" id="exampleFormControlTextarea1" rows="3">{{ $about_us->desc_en }}</textarea>
                         </div>
                     </div>

@@ -163,7 +163,7 @@
             <div class="video-wrapper">
                 <div class="video video-2" id="video-2">
                     <div class="bg-section">
-                        <img src="{{ asset('assets/front') }}/assets/images/sliders/3.jpg" alt="background"/>
+                        <img src="{{ asset('assets/front') }}/assets/images/sliders/offer-pic.jpg" alt="background"/>
                     </div>
                 </div>
             </div>

@@ -28,13 +28,13 @@
                                 <input type="file" name="files[]" multiple class="form-control" />
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="">Titl Ar :</label>
-                                <input type="text" name="title_ar" value="{{ $settings->title_ar }}"
-                                    class="form-control" />
-                            </div>
-                        </div>
+{{--                        <div class="col-md-4">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label for="">Titl Ar :</label>--}}
+{{--                                <input type="text" name="title_ar" value="{{ $settings->title_ar }}"--}}
+{{--                                    class="form-control" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                     <!-- End Row -->
 
@@ -66,13 +66,13 @@
                                 <input type="text" name="email" value="{{ $settings->email }}" class="form-control" />
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="">Address Ar :</label>
-                                <input type="text" name="address_ar" value="{{ $settings->address_ar }}"
-                                    class="form-control" />
-                            </div>
-                        </div>
+{{--                        <div class="col-md-4">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label for="">Address Ar :</label>--}}
+{{--                                <input type="text" name="address_ar" value="{{ $settings->address_ar }}"--}}
+{{--                                    class="form-control" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="">Address En :</label>
@@ -123,13 +123,13 @@
                                     class="form-control" />
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="">Desc Ar :</label>
-                                <textarea type="text" name="desc_ar" rows="4"
-                                          class="form-control">{{ $settings->desc_ar }}</textarea>
-                            </div>
-                        </div>
+{{--                        <div class="col-md-4">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label for="">Desc Ar :</label>--}}
+{{--                                <textarea type="text" name="desc_ar" rows="4"--}}
+{{--                                          class="form-control">{{ $settings->desc_ar }}</textarea>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="">Desc En :</label>

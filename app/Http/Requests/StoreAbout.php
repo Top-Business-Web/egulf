@@ -27,13 +27,13 @@ class StoreAbout extends FormRequest
 
         return [
             'image' => 'nullable',
-            'title_ar' => 'required',
+            'title_ar' => 'nullable',
             'title_en' => 'required',
-            'sub_title_ar' => 'required',
+            'sub_title_ar' => 'nullable',
             'sub_title_en' => 'required',
-            'hash_ar' => 'required',
+            'hash_ar' => 'nullable',
             'hash_en' => 'required',
-            'desc_ar' => 'required',
+            'desc_ar' => 'nullable',
             'desc_en' => 'required',
         ];
     }
