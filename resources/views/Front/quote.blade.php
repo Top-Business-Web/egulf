@@ -48,23 +48,23 @@
                     <p class="heading-desc">
                         @lang('site.We offer')
                     </p>
-                    <div class="advantages-list-holder">
-                        <div class="row">
-                            <div class="col-12 col-lg-6">
-                                <ul class="list-unstyled advantages-list advantages-list-3">
-                                    <li>@lang('site.Reliabe and performance')</li>
-                                    <li>@lang('site.Solar material financing')</li>
-                                    <li>@lang('site.In-time manufacturing')</li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <ul class="list-unstyled advantages-list advantages-list-3">
-                                    <li>@lang('site.50% more energy output')</li>
-                                    <li>@lang('site.Built using ntype mono')</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="advantages-list-holder">--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-12 col-lg-6">--}}
+{{--                                <ul class="list-unstyled advantages-list advantages-list-3">--}}
+{{--                                    <li>@lang('site.Reliabe and performance')</li>--}}
+{{--                                    <li>@lang('site.Solar material financing')</li>--}}
+{{--                                    <li>@lang('site.In-time manufacturing')</li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-12 col-lg-6">--}}
+{{--                                <ul class="list-unstyled advantages-list advantages-list-3">--}}
+{{--                                    <li>@lang('site.50% more energy output')</li>--}}
+{{--                                    <li>@lang('site.Built using ntype mono')</li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="contact-action">
                         <a class="btn btn--primary" href="{{ route('about_us') }}">@lang('site.learn more') <i
                                 class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white"

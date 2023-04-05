@@ -41,7 +41,7 @@
     <section class="testimonial testimonial-5 bg-overlay bg-overlay-white2">
         <div class="bg-section">
             <img
-                src="assets/images/background/wavy-pattern.png"
+                src="{{asset('assets/images/background/wavy-pattern.png') }}"
                 alt="background"
             />
         </div>
@@ -51,7 +51,7 @@
                     <div class="col-12 col-lg-5 img-card-holder">
                         <div class="img-card img-card-2 bg-overlay bg-overlay-theme">
                             <div class="bg-section">
-                                <img src="assets/images/contact/2.jpg" alt="image"/>
+                                <img src="{{ asset('assets/images/contact/2.jpg') }}" alt="image"/>
                             </div>
                             <div class="card-content">
                                 <div class="content-top">
@@ -68,7 +68,7 @@
                                             <i class="energia-phone-Icon"></i>
                                             <p>
                                                 @lang('site.Emergency Line'):
-                                                <a href="tel:123-456-7890">(002) 01061245741</a>
+                                                <a href="tel:{{ $settings->phone }}">{{ $settings->phone }}</a>
                                             </p>
                                         </li>
                                         <li class="contact-info">
@@ -195,7 +195,7 @@
                             // alert(value);
                             if ($.isPlainObject(value)) {
                                 $.each(value, function (key, value) {
-                                    toastr.error(''+value);
+                                    toastr.error('' + value);
                                     // alert(value);
                                 });
                             }
